@@ -1,0 +1,18 @@
+
+GET http://localhost:5207/travels/1
+
+PUT  http://localhost:5207/travels/1
+{
+"name": "USA",
+"genre": "California",
+"ReleaseDate": "2024-04-20",
+"price": 1234
+}
+
+POST http://localhost:5207/travels
+{
+"name": "USA",
+"genre": "California",
+"ReleaseDate": "2024-04-20",
+"price": 1234
+}
